@@ -235,6 +235,10 @@
 	mali-supply = <&vdd_gpu>;
 };
 
+&hdmi {
+	pinctrl-0 = <&hdmi_ddc>, <&hdmi_cec>;
+};
+
 &i2c0 {
 	clock-frequency = <400000>;
 
@@ -568,6 +572,14 @@
 
 &uart2 {
 	status = "okay";
+};
+
+&rockchip_suspend {
+	rockchip,pwm-regulator-config = <
+	(0
+	| PWM1_REGULATOR_EN
+	)
+	>;
 };
 
 &pwm1 {
