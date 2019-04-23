@@ -11,8 +11,11 @@ obj-$(CONFIG_AIRO)		+= airo.o
 obj-$(CONFIG_AIRO_CS)		+= airo_cs.o airo.o
 
 obj-$(CONFIG_ATMEL)             += atmel.o
+obj-$(CONFIG_RTL8812AU) += rtl8812au/
 obj-$(CONFIG_PCI_ATMEL)         += atmel_pci.o 
+obj-$(CONFIG_RTL8812AU) += rtl8812au/
 obj-$(CONFIG_PCMCIA_ATMEL)      += atmel_cs.o
+obj-$(CONFIG_RTL8812AU) += rtl8812au/
 
 obj-$(CONFIG_AT76C50X_USB)      += at76c50x-usb.o
 
@@ -20,6 +23,7 @@ obj-$(CONFIG_PRISM54)		+= prism54/
 
 obj-$(CONFIG_HOSTAP)		+= hostap/
 obj-$(CONFIG_B43)		+= b43/
+obj-$(CONFIG_RTL8188EU) += rtl8188eu/
 obj-$(CONFIG_B43LEGACY)		+= b43legacy/
 obj-$(CONFIG_ZD1211RW)		+= zd1211rw/
 obj-$(CONFIG_WLAN)		+= realtek/

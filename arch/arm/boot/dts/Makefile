@@ -534,6 +534,7 @@ dtb-$(CONFIG_ARCH_ROCKCHIP) += \
 	rk3229-evb.dtb \
 	rk3229-evb-android.dtb \
 	rk3229-gva-sdk.dtb \
+	rk3288-xt-q8l-v10.dtb \
 	rk3288-evb-act8846.dtb \
 	rk3288-evb-android-act8846-edp.dtb \
 	rk3288-evb-android-rk808-edp.dtb \
@@ -552,6 +553,7 @@ dtb-$(CONFIG_ARCH_ROCKCHIP) += \
 	rk3288-firefly-rk808.dtb \
 	rk3288-firefly.dtb \
 	rk3288-miniarm.dtb \
+ 	rk3288-tinker.dtb \
 	rk3288-miqi.dtb \
 	rk3288-phycore-rdk.dtb \
 	rk3288-popmetal.dtb \
